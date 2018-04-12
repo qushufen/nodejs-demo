@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodejs
-        image: registry.cn-shanghai.aliyuncs.com/yushi-docker/aliyun-test:nodejsrest1.0.0 # replace it with your exactly <image_name:tags>
+        image: registry.cn-shanghai.aliyuncs.com/yushi-docker/aliyun-test:nodejsrest1.0.2 # replace it with your exactly <image_name:tags>
        
       imagePullSecrets:          #Comment out to enable specific image pull secret
       - name: regcred    # repleace it wity your specific docker registry secret
